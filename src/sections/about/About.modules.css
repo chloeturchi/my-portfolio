@@ -1,0 +1,13 @@
+#about {
+    color:#1e1f25;
+    background: linear-gradient(to bottom, #EC9D9D 0%,  #cff4f5 20%, #A8DADC 50%, #84dcdf 80%, #32d6dc 100%);
+}
+
+.presdentation {
+    margin-bottom: 0px;
+}
+
+#about h2 {
+    z-index: 1;
+}
+
