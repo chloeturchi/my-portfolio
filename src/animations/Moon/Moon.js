@@ -1,8 +1,8 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring'
+import { useSpring, animated } from 'react-spring';
 
 import avatar from '../../assets/images/avatar/my-avatar.png';
-import './Moon.modules.css'
+import './Moon.modules.css';
 
 const Moon = () => {
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))

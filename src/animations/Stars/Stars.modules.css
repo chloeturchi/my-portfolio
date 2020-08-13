@@ -12,7 +12,7 @@
     animation-iteration-count: infinite;
 }
 
-.star1--horizontal {
+.star1-horizontal {
     width: 8.5px;
     height: 3px;
     top: 10%;
@@ -20,7 +20,7 @@
     box-shadow: -1px -2px 25px 4px rgba(255,255,255,0.6);;
 }
 
-.star1--vertical {
+.star1-vertical {
     width: 2.5px;
     height: 10px;
     top: 7%;
@@ -28,14 +28,14 @@
     box-shadow: -1px -2px 25px 4px rgba(255,255,255,0.6);;
 }
 
-.star2--horizontal {
+.star2-horizontal {
     width: 6px;
     height: 2px;
     right: -81%;
     box-shadow: -1px -2px 20px 3px rgba(255,255,255,0.6);;
 }
 
-.star2--vertical {
+.star2-vertical {
     width: 2px;
     height: 7px;
     top: -2%;
@@ -43,7 +43,7 @@
     box-shadow: -1px -2px 20px 3px rgba(255,255,255,0.6);;
 }
 
-.star3--horizontal {
+.star3-horizontal {
     width: 7px;
     height: 2px;
     top: 85%;
@@ -51,7 +51,7 @@
     box-shadow: -1px -2px 20px 3px rgba(255,255,255,0.6);;
 }
 
-.star3--vertical {
+.star3-vertical {
     width: 2px;
     height: 7px;
     top: 83%;

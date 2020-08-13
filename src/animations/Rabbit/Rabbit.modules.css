@@ -1,61 +1,60 @@
-
 .rabbit {
-    width:5em;
-    height:3em;
-    background:#ffffff;
-    border-radius:70% 90% 60% 50%;
-    margin-bottom: 50px;
-    transform: translate(0,3em) rotate(0deg);
-    z-index: 1;
-    animation: body 2s ease-in-out infinite alternate;
+  width:5em;
+  height:3em;
+  background:#ffffff;
+  border-radius:70% 90% 60% 50%;
+  margin-bottom: 50px;
+  transform: translate(0,3em) rotate(0deg);
+  z-index: 1;
+  animation: body 2s ease-in-out infinite alternate;
 }
-    .rabbit:before {
-      content:"";
-      position:absolute;
-      width:1em;
-      height:1em;
-      background:white;
-      border-radius:100%;
-      top:0.5em;
-      left:-0.3em;
-      box-shadow:
-      4.1em 0.9em 0 -0.38em #000000,
-      3.3em 1.7em 0 -0.1em white,
-      1em 1.7em 0 -0.1em white;
-    }
 
-    .rabbit:after {
-      content:"";
-      position:absolute;
-      width:.80em;
-      height:2em;
-      background:rgb(255, 255, 255);
-      border-radius:50% 100% 0 0;
-      transform: rotate(0deg);
-      right:1.1em;
-      top:-1.3em;
-      border-top:1px solid #f7f5f4;
-      border-left: 1px solid #f7f5f4;
-      box-shadow: 0.6em 0.2em 0 -0.1em hsl(0, 0%, 100%);
-      animation: ears 2s ease-in-out infinite alternate;
+.rabbit:before {
+  content:"";
+  position:absolute;
+  width:1em;
+  height:1em;
+  background:white;
+  border-radius:100%;
+  top:0.5em;
+  left:-0.3em;
+  box-shadow:
+    4.1em 0.9em 0 -0.38em #000000,
+    3.3em 1.7em 0 -0.1em white,
+    1em 1.7em 0 -0.1em white;
+}
 
-    }
+.rabbit:after {
+  content:"";
+  position:absolute;
+  width:.80em;
+  height:2em;
+  background:rgb(255, 255, 255);
+  border-radius:50% 100% 0 0;
+  transform: rotate(0deg);
+  right:1.1em;
+  top:-1.3em;
+  border-top:1px solid #f7f5f4;
+  border-left: 1px solid #f7f5f4;
+  box-shadow: 0.6em 0.2em 0 -0.1em hsl(0, 0%, 100%);
+  animation: ears 2s ease-in-out infinite alternate;
+}
 
-    @keyframes ears {
-        0% {
-          transform: translate(0,0) rotate(0deg);
-        }
-        100% {
-          transform: translate(-0.5em,0.1em) rotate(-20deg);
-        }
-      }
+@keyframes ears {
+  0% {
+    transform: translate(0,0) rotate(0deg);
+  }
+  100% {
+    transform: translate(-0.5em,0.1em) rotate(-20deg);
+  }
+}
 
-      @keyframes body {
-        0% {
-          transform: translate(0,3) rotate(0deg);
-        }
-        100% {
-          transform: translate(-0.8em,0) rotate(-20deg);
-        }
-      }
+@keyframes body {
+  0% {
+    transform: translate(0,3) rotate(0deg);
+  }
+  100% {
+    transform: translate(-0.8em,0) rotate(-20deg);
+  }
+}
 
