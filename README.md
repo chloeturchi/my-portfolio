@@ -2,11 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # My Portfolio
 
-## Table of contents
-*[General info](##-General-info)
-*[Technologies](##Technologies)
-*[Setup](##Setup)
-
 ## General info
 Here is a training project about my own portfolio to learn more about react and react libraries
 
