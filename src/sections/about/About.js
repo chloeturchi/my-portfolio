@@ -4,15 +4,15 @@ import Birds from '../../animations/Birds/Birds';
 import Clouds from '../../animations/Clouds/Clouds';
 
 import AboutCard from './components/AboutCard/AboutCard';
-import technologies from '../../assets/images/icons/technologies.png'
-import skills from '../../assets/images/icons/human-resources.png'
-import person from '../../assets/images/icons/person.png';
+import dev from '../../assets/images/icons/dev.png'
+import skills from '../../assets/images/icons/skills.png'
+import hobbies from '../../assets/images/icons/hobbies.png';
 import './About.modules.css';
 
 const About = () => {
     const infos = [
         {
-            imgSrc: technologies, 
+            imgSrc: dev, 
             title:"Technologies",
             list: [
                 "HTML", 
@@ -42,8 +42,8 @@ const About = () => {
             ]
         },
         {
-            imgSrc: person, 
-            title:"I Like",
+            imgSrc: hobbies, 
+            title:"Hobbies",
             list: [
                 "Digital drawing",
                 "Paper drawing",
@@ -62,7 +62,7 @@ const About = () => {
         <section id="about">
             <h2 className="about__title">ABOUT</h2>
             <Clouds />
-            <p className="about__presentation">I am a creativ and curious person who really likes to code User Interfaces and create ne applications. I also appreciate to learn new things by myself and to stay informed about technologies</p>
+            <p className="about__presentation">I am a creativ and curious person who really likes to code User Interfaces and create applications. I also appreciate to learn new things by myself and to stay informed about technologies</p>
             <Birds />
             <AboutCard infos={infos} />
         </section>

@@ -23,3 +23,5 @@ const App = () => {
 };
 
 export default App;
+
+/* Icons made by <a href="https://www.flaticon.com/authors/freepik/"*/

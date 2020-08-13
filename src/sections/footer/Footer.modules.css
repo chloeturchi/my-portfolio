@@ -3,6 +3,7 @@ footer {
     min-height: 300px;
     background-color: #050505;
     padding: 0px;
+    padding-bottom: 20px;
 }
 
 .up-arrow {
@@ -25,10 +26,9 @@ footer {
 
 footer p {
     margin-top: 200px;
+    margin-bottom: 0px;
     width: auto;
     color: white;
     text-align:center;
     font-size: 12px;
 }
-
-/* Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>*/

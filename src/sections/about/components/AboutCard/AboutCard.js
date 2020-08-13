@@ -3,8 +3,8 @@ import React from 'react';
 import './AboutCard.modules.css';
 import List from '../List/List';
 
-const AboutCards = ({infos}) =>
-    <div className="about-cards">
+const AboutCard = ({infos}) =>
+    <div className="about-container">
         {infos.map(
             (info, i) => 
             <div className="about-card">
@@ -23,4 +23,4 @@ const AboutCards = ({infos}) =>
     }
     </div>
         
-export default AboutCards;
+export default AboutCard;
