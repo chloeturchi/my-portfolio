@@ -45,11 +45,15 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.project-card__info > a {
+.project-card__info__github {
     display: block;
-    color: black;
+    color: rgb(145, 211, 255);
     font-size: 15px;
     cursor: pointer;
+}
+
+.project-card__info__tag {
+    font-weight: bold;
 }
 
 .project-card:hover .project-card__image {

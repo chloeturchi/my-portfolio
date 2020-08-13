@@ -58,3 +58,14 @@ hr {
   height: 4;
   width: 80%; 
 }
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: auto;
+}
+
+li {
+  min-width: 150px;
+  padding: 5px;
+}

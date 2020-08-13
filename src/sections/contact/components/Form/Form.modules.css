@@ -1,47 +1,47 @@
-
 form {
-    width: 65%;
-    padding: 70px 20px;
-    background-color: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
-    text-align: center;
-    border-radius: 10px;
-  }
+  width: 65%;
+  margin: 20px auto;
+  padding: 60px 20px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  text-align: center;
+  border-radius: 10px;
+}
 
 label {
   color: black;
 }
   
-  .contact-form input {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-    color: black;  
-    background-color: rgb(238, 237, 237);
-    border-style: none;
-  }
+.contact-form input {
+  display: block;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+  color: black;  
+  background-color: rgb(238, 237, 237);
+  border-style: none;
+}
   
-  .contact-form input[type=submit] {
-    width: 100px;
-  }
-  
-  .contact-form input[type=textarea] {
-    height: 100px;
-  }
+.contact-form input[type=submit] {
+  width: 100px;
+}
 
-  .message-validation {
-    color: rgb(33, 165, 33);
-  }
+.contact-form input[type=textarea] {
+  height: 100px;
+}
+
+.message-validation {
+  color: rgb(33, 165, 33);
+}
+
+.error {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px auto;
+  color: red;
+}
   
-  .error {
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0px auto;
-    color: red;
-  }
-    
-  .inputError {
-    border-color: red;
-    border-style: solid !important;
-  }
+.inputError {
+  border-color: red;
+  border-style: solid !important;
+}

@@ -4,7 +4,7 @@ import './Form.modules.css';
 import useForm from '../../../../shared/hooks/useForm';
 import validate from "../../../../shared/utility/utility";
 
-const Form = props => {
+const Form = () => {
     const { handleChange, handleSubmit, values, errors } = useForm(
         submit,
         validate

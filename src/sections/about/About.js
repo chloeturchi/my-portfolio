@@ -22,7 +22,8 @@ const About = () => {
                 "NODE",
                 "EXPRESS",
                 "GIT",
-                "JEST"
+                "JEST",
+                "SASS"
             ]
         },
         {
@@ -34,7 +35,6 @@ const About = () => {
                 "Responsiv Design",
                 "Build complete interfaces",
                 "Performances",
-                "Unit tests",
                 "Client needs analysis",
                 "Data requests and storage",
                 "Use of frameworks",
@@ -60,11 +60,11 @@ const About = () => {
 
     return (
         <section id="about">
-            <h2>ABOUT</h2>
+            <h2 className="about__title">ABOUT</h2>
             <Clouds />
-            <p className="presentation">I am a creativ and curious person who really likes to code interfaces and create applications UI. I also appreciate to learn new things by myself and to stay informed about technologies</p>
-            <AboutCard infos={infos} />
+            <p className="about__presentation">I am a creativ and curious person who really likes to code User Interfaces and create ne applications. I also appreciate to learn new things by myself and to stay informed about technologies</p>
             <Birds />
+            <AboutCard infos={infos} />
         </section>
     )
 };

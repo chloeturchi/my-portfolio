@@ -17,9 +17,14 @@ const Cards = ({projects}) =>
                     </a>
                     <figcaption className="project-card__info"> 
                         <p>{project.title}</p>
-                        <p>{project.tag}</p>
+                        <p className="project-card__info__tag">{project.tag}</p>
                         <p>{project.organism}</p>
-                        <a href={project.codeLink}target="_blank" rel="noopener noreferrer">github</a>
+                        <a 
+                            className="project-card__info__github"
+                            href={project.codeLink}target="_blank" 
+                            rel="noopener noreferrer">
+                            github
+                        </a>
                     </figcaption>
                     </figure>
                 </li>
