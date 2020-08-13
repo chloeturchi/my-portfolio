@@ -6,7 +6,7 @@
     margin: 20px 0px;
 }
 
-.projects-container li, .projects-container p{
+.projects-container li, .projects-container p {
     padding: 0px;
     margin: 0px;
     font-size: 17px; 
@@ -16,8 +16,8 @@
     position: relative;
     width: 350px;
     height: 250px;
-    background-color: white;
-    margin: 10px;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
     border-radius: 10px;
 }
@@ -38,11 +38,11 @@
     bottom: 0; 
     opacity:0;
     background: rgba(0, 0, 0, 0.5);
-    transition: .5s ease;
     color: white;
     text-align: center;
     padding: 10px 0px;
     border-radius: 0px 0px 10px 10px;
+    transition: .5s ease;
 }
 
 .project-card__info__github {
@@ -63,5 +63,4 @@
 .project-card:hover .project-card__info {
     opacity: 1;
     border-radius: 0px 0px 10px 10px;
-
 }

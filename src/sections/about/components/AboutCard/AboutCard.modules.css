@@ -22,22 +22,16 @@
     font-weight: bold;
 }
 
-.about-card__icon-container {
+.about-card__icon {
     width: 60px;
     height: 60px;
     margin: auto;
     padding: 10px;
-    background-color: white;
-}
-
-.icon-container__icon {
-    width: 100%; 
-    height: 100%;
     border-radius: 20%;
     transition: all .2s ease-in-out;
     cursor: default;
 }
 
-.icon-container__icon:hover {
+.about-card__icon:hover {
     transform: scale(1.1);
 }

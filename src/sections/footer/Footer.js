@@ -3,6 +3,7 @@ import React from 'react';
 import SocialCard from './components/SocialCard/SocialCard';
 import upArrow from '../../assets/images/icons/up-arrow.png';
 import linkedin from '../../assets/images/icons/linkedin.png'
+import github from '../../assets/images/icons/github.png'
 import './Footer.modules.css';
 
 const Footer = () => {
@@ -11,6 +12,11 @@ const Footer = () => {
             imgSrc: linkedin, 
             title:"LinkdIn",
             link: "https://www.linkedin.com/in/chloeturchi/"
+        },
+        {
+            imgSrc: github, 
+            title:"github",
+            link: "https://github.com/chloeturchi/"
         },
     ]
 

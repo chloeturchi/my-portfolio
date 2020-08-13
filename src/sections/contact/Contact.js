@@ -4,7 +4,7 @@ import Rabbit from '../../animations/Rabbit/Rabbit';
 import Form from './components/Form/Form';
 import './Contact.modules.css';
 
-const Contact = props => {
+const Contact = () => {
     return (
         <section id="contact">
             <h2>Contact</h2>

@@ -111,7 +111,12 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <h2>Projects</h2>
-            <Bubbles />
+            <div className="bubbles-container">
+                <Bubbles />
+                <Bubbles />
+                <Bubbles />
+                <Bubbles />
+            </div>
             <ProjectCards projects={projects}/>
         </section>
     )

@@ -8,13 +8,11 @@ const AboutCard = ({infos}) =>
         {infos.map(
             (info, i) => 
             <div className="about-card">
-                <div className="about-card__icon-container">
-                    <img
-                        className="icon-container__icon"
-                        src={info.imgSrc}
-                        alt={info.title}
-                    />
-                </div>
+                <img
+                    className="about-card__icon"
+                    src={info.imgSrc}
+                    alt={info.title}
+                />
                 <h3 className="about-card__title">{info.title}</h3>
                 <hr/>
                 <List listInfo={info.list}/>
