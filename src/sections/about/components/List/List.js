@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './List.modules.css';
+
 const List = ({listInfo}) =>
     <ul>
         {listInfo.map(
             (infoItem, i) =>
-            <li>{infoItem}</li>
+            <li className="list-element">{infoItem}</li>
         )}
     </ul>
 

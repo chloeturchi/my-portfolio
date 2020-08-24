@@ -1,0 +1,9 @@
+.list-element {
+    transition: all .2s ease-in-out;
+    cursor: default;
+    text-align:center;
+  }
+  
+.list-element:hover {
+    transform: scale(1.1);
+}

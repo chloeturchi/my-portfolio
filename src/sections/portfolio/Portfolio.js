@@ -30,15 +30,15 @@ const Portfolio = () => {
             title: "PORTFOLIO", 
             tag: "React, React libraries",
             organism: "Personal project",
-            projectLink: "https://github.com/chloeturchi/portfolio", 
-            codeLink: "https://github.com/chloeturchi/portfolio",
+            projectLink: "https://chloeturchi.fr", 
+            codeLink: "https://github.com/chloeturchi/my-portfolio",
             src: portfolio
         },
         {
             title: "FOOD RECIPE", 
             tag: "React",
             organism: "Online course",
-            projectLink: "https://github.com/chloeturchi/food-recipe-react", 
+            projectLink: "https://master.d3cqwfvsrh29jc.amplifyapp.com/", 
             codeLink: "https://github.com/chloeturchi/food-recipe-react",
             src: foodRecipes
         },
@@ -46,7 +46,7 @@ const Portfolio = () => {
             title: "TODO LIST",
             organism: "Online course",
             tag: "React, Redux",
-            projectLink: "https://github.com/chloeturchi/todolist-react-redux", 
+            projectLink: "https://master.ddvmkmgmag8ef.amplifyapp.com/", 
             codeLink: "https://github.com/chloeturchi/todolist-react-redux",
             src: todolist
         },
@@ -54,7 +54,7 @@ const Portfolio = () => {
             title: "EXPENSE TRACKER",
             organism: "Online course", 
             tag: "React",
-            projectLink: "https://github.com/chloeturchi/expense-tracker-react", 
+            projectLink: "https://master.dbc3mtmloqrcr.amplifyapp.com/", 
             codeLink: "https://github.com/chloeturchi/expense-tracker-react",
             src: expenseTracker
         },
@@ -62,7 +62,7 @@ const Portfolio = () => {
             title: "COVID19 TRACKER",
             organism: "Online course", 
             tag: "React",
-            projectLink: "https://github.com/chloeturchi/covid19-tracker-react", 
+            projectLink: "https://master.d3p9xhazi3zghx.amplifyapp.com/", 
             codeLink: "https://github.com/chloeturchi/covid19-tracker-react",
             src: covid19
         },
@@ -112,7 +112,6 @@ const Portfolio = () => {
         <section id="portfolio">
             <h2>Projects</h2>
             <div className="bubbles-container">
-                <Bubbles />
                 <Bubbles />
                 <Bubbles />
                 <Bubbles />

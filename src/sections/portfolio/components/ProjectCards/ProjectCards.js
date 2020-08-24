@@ -7,7 +7,7 @@ const Cards = ({projects}) =>
     {
         projects.map(
             (project, i)=>
-                <li  key={i}>
+                <li key={i}>
                     <figure className="project-card">
                     <a href={project.projectLink} target="_blank" rel="noopener noreferrer">
                     <img 

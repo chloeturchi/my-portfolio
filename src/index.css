@@ -8,13 +8,13 @@ html, body {
   font-family: 'Roboto', 'sans-serif';
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, p {
   transition: all .2s ease-in-out;
   cursor: default;
   text-align:center;
 }
 
-h1:hover, h2:hover, h3:hover, p:hover, li:hover{
+h1:hover, h2:hover, h3:hover, p:hover {
   transform: scale(1.1);
 }
 
