@@ -18,12 +18,12 @@ const About = () => {
                 "HTML", 
                 "CSS",
                 "JAVASCRIPT",
-                "REACT",
-                "NODE",
-                "EXPRESS",
-                "GIT",
+                "REACT/REDUX",
+                "GIT/GITHUB",
                 "JEST",
-                "SASS"
+                "TERMINAL",
+                "SASS",
+                "NODE"
             ]
         },
         {
