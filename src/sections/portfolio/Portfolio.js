@@ -22,7 +22,7 @@ const Portfolio = () => {
             title: "MERN APP", 
             tag: "React, Nodejs, Mongodb, Express",
             organism: "Online course",
-            projectLink: "https://places-mern-4a3d8.web.app/5f4ffd0578ec7d001701f37a/places", 
+            projectLink: "https://places-mern-4a3d8.web.app", 
             codeLink: "https://github.com/chloeturchi/mern-places-frontend",
             src: mern
         },
