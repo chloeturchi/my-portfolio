@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProjectCards from './components/ProjectCards/ProjectCards';
-import Bubbles from '../../animations/Bubbles/Bubbles';
+import Birds from '../../animations/Birds/Birds';
 
 import quoteGenerator from '../../assets/images/projects/quote-generator.png';
 import boardGame from '../../assets/images/projects/board-game.png';
@@ -111,7 +111,7 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <h2>Projects</h2>
-            <Bubbles />
+            <Birds />
             <ProjectCards projects={projects}/>
         </section>
     )

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Birds from '../../animations/Birds/Birds';
 import Clouds from '../../animations/Clouds/Clouds';
 
 import AboutCard from './components/AboutCard/AboutCard';
@@ -63,7 +62,6 @@ const About = () => {
             <h2 className="about__title">ABOUT</h2>
             <Clouds />
             <p className="about__presentation">I am a creativ and curious person who really likes to code User Interfaces and create applications. I also appreciate to learn new things by myself and to stay informed about technologies</p>
-            <Birds />
             <AboutCard infos={infos} />
         </section>
     )
