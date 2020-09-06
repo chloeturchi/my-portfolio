@@ -113,8 +113,6 @@ const Portfolio = () => {
             <h2>Projects</h2>
             <div className="bubbles-container">
                 <Bubbles />
-                <Bubbles />
-                <Bubbles />
             </div>
             <ProjectCards projects={projects}/>
         </section>
