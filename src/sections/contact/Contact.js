@@ -9,7 +9,7 @@ const Contact = () => {
         <section id="contact">
             <h2>Contact</h2>
             <Rabbit />
-            <h3>Contact me if you have any question or to work together</h3>
+            <h3>Contact me if you want to work together</h3>
             <Form />
         </section>
     )

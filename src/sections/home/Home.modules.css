@@ -1,5 +1,6 @@
 #home {
-    background: linear-gradient(to bottom, #020107 0%, #311B46 50%, #592C67 60%, #803E7E 75%, #CA759C 90%, #EC9D9D 100%);
+    color: white;
+    background: #283044;
     padding-top: 180px;
     text-align: center;
 }
