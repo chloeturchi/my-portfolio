@@ -1,19 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio - [personal project]
 
-# My Portfolio
-
-## General info
+## Introduction
 Here is a training project about my own portfolio to learn more about react and react libraries
 
-## Technologies
-* react: 16.13.1
-* emailjs-com: 2.6.3
-* react-spring: 8.0.27
-* react-transition-group: 4.4.1
+## Tools
+- react, react-dom
+- react-spring
+- react-transition-group
+- emailjs-com
 
-## Setup
-To run this project:
-```
-$ npm install
-$ npm start
-```
+## Installation
+    Install the dependencies from the package.json file with npm install
+
+## Build with
+* [Visual Studio Code](https://code.visualstudio.com/) - text editor
